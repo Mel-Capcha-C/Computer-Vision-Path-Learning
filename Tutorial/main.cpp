@@ -1,6 +1,5 @@
 #include<iostream>
-
-using namespace std;
+#include <string>
 
 consteval int get_value(){
     return 3;
@@ -8,7 +7,15 @@ consteval int get_value(){
     
 int main(){
     constexpr int value =get_value();
-    cout<<"Hola mundo"<<endl;
-    cout<< value <<endl;
+    int age{0};
+    std::string name{};
+
+    std::cout << "Hola mundo"<< std::endl;
+    std::cout << value << std::endl;
+    std::cout << "Please enter your name: ";
+    std::getline(std::cin, name);
+    std::cout << "Hello " << name << std::endl;
+
+
     return 0;
 }
