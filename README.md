@@ -82,3 +82,9 @@ Then go to configure terminal settings and add
     "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT64"
 }
 ```
+
+
+git remote set-url origin git@MC1:Mel-Capcha-C/Computer-Vision-Path-Learning.git
+git remote -v
+origin  git@MC1:Mel-Capcha-C/Computer-Vision-Path-Learning.git (fetch)
+origin  git@MC1:Mel-Capcha-C/Computer-Vision-Path-Learning.git (push)
