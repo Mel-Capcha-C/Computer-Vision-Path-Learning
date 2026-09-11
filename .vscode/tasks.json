@@ -8,9 +8,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-std=c++20",
                 "${file}",
                 "-I",
-                "C:/msys64/ucrt64/include/opencv5",
+                "C:/msys64/ucrt64/include/opencv4",
                 "-L",
                 "C:/msys64/ucrt64/lib",
                 "-lopencv_ximgproc",
@@ -19,7 +20,7 @@
                 "-lopencv_imgproc",
                 "-lopencv_core",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"

@@ -14,6 +14,7 @@ Create the file c_cpp_properties.json under the .vscode directory and copy the f
             "name": "MSYS2 UCRT64",
             "includePath": [
                 "${workspaceFolder}/**",
+                "C:/msys64/ucrt64/include/opencv4",
                 "C:/msys64/ucrt64/include/opencv5"
             ],
             "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
